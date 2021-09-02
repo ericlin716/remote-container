@@ -14,8 +14,8 @@ power by [![N|Solid](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api
 2. run the `Remote-Containers: Rebuild and Reopen in Container`, If you change the .devcontainer config.
 
 ## Reference
-| Reference                      | URL                                                                                        |
-| ------------------------------ | ------------------------------------------------------------------------------------------ |
-| microsoft-vscode-devcontainers | [https://hub.docker.com/_/microsoft-vscode-devcontainers]()                                |
-| Remote-Containers              | [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers]() |
-| Visual Studio                  | [https://code.visualstudio.com/docs/remote/containers]()                                   |
+| Reference                      | URL                                                                                      |
+| ------------------------------ | ---------------------------------------------------------------------------------------- |
+| microsoft-vscode-devcontainers | <https://hub.docker.com/_/microsoft-vscode-devcontainers>                                |
+| Remote-Containers              | <https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers> |
+| Visual Studio                  | <https://code.visualstudio.com/docs/remote/containers>                                   |
