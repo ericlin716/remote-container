@@ -3,8 +3,6 @@ power by [![N|Solid](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api
 
 ###### This sample enhance the remote-container to support docker-in-docker
 
-
-
 ## Installation
 1. Install and configure [Docker](https://www.docker.com/get-started) for your operating system.
 2. Install [Visual Studio Code](https://www.docker.com/get-started) or [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/).
@@ -16,8 +14,8 @@ power by [![N|Solid](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api
 2. run the `Remote-Containers: Rebuild and Reopen in Container`, If you change the .devcontainer config.
 
 ## Reference
-| Plugin | README |
-| ------ | ------ |
-| microsoft-vscode-devcontainers | [https://hub.docker.com/_/microsoft-vscode-devcontainers]() |
-| Remote-Containers | [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers]() |
-| Visual Studio | [https://code.visualstudio.com/docs/remote/containers]() |
+| Reference                      | URL                                                                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| microsoft-vscode-devcontainers | [https://hub.docker.com/_/microsoft-vscode-devcontainers]()                                |
+| Remote-Containers              | [https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers]() |
+| Visual Studio                  | [https://code.visualstudio.com/docs/remote/containers]()                                   |
