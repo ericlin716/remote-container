@@ -16,6 +16,10 @@
   "extensions": ["dbaeumer.vscode-eslint", "ms-azuretools.vscode-docker", "esbenp.prettier-vscode"],
 	// "appPort": [ "3000:3000", "5432:5432" ],
 
+	// Use remote host
+	// "workspaceFolder": "/workspace",
+  // "workspaceMount": "source=remote-workspace,target=/workspace,type=volume",
+
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
