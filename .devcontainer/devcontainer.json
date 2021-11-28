@@ -18,7 +18,7 @@
 
 	// Use remote host
 	// "workspaceFolder": "/workspace",
-  // "workspaceMount": "source=remote-workspace,target=/workspace,type=volume",
+  	// "workspaceMount": "source=remote-workspace,target=/workspace,type=volume",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -36,7 +36,7 @@
 	// "remoteUser": "vscode"
 
 	"runArgs": [
-		"--init", "--privileged","--name", "${localWorkspaceFolderBasename}-dev-container", "-v"
+		"--init", "--privileged","--name", "${localWorkspaceFolderBasename}-dev-container"
 	],
 	"mounts": ["source=${localWorkspaceFolderBasename}-dind-var-lib-docker,target=/var/lib/docker,type=volume"],
 	"overrideCommand": false
