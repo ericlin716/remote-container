@@ -13,7 +13,7 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-  "extensions": ["dbaeumer.vscode-eslint", "ms-azuretools.vscode-docker", "esbenp.prettier-vscode"],
+  	"extensions": ["dbaeumer.vscode-eslint", "ms-azuretools.vscode-docker", "esbenp.prettier-vscode"],
 	// "appPort": [ "3000:3000", "5432:5432" ],
 
 	// Use remote host
@@ -36,7 +36,7 @@
 	// "remoteUser": "vscode"
 
 	"runArgs": [
-		"--init", "--privileged","--name", "${localWorkspaceFolderBasename}-dev-container", "-v", "${env:HOME}${env:USERPROFILE}/.ssh:/root/.ssh:ro"
+		"--init", "--privileged","--name", "${localWorkspaceFolderBasename}-dev-container", "-v"
 	],
 	"mounts": ["source=${localWorkspaceFolderBasename}-dind-var-lib-docker,target=/var/lib/docker,type=volume"],
 	"overrideCommand": false
