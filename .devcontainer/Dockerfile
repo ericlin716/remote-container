@@ -34,3 +34,14 @@ CMD [ "sleep", "infinity" ]
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
+
+# Setting the git.
+# There are some cases when you may be cloning your repository using SSH keys instead of a credential helper. 
+# To enable this scenario, the extension will automatically forward your local SSH agent if one is running.
+# $ ssh-add $HOME/.ssh/id_rsa
+
+# In windows, start a local Administrator PowerShell and run the following commands to start ssh-agent:
+# Make sure you're running as an Administrator
+# $ Set-Service ssh-agent -StartupType Automatic
+# $ Start-Service ssh-agent
+# $ Get-Service ssh-agent
